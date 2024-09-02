@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student LogIn</title>
+    <style>
+        #f{
+            width: 95vw;
+            height: 95vh;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin:20px 20px;
+            background-color: aqua;
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        #b{
+            width: 100px;
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    1 Roll No
+    2passwd
+    3sign in
+    -->
+    <div id="f">
+        <form class="center">
+        <fieldset>
+            <br>
+            <label for="roll_no">Roll No.</label>
+            <input type="text" id="roll_no"><br><br>
+            <label for="passwd">Password</label>
+            <input type="text" id="passwd" value="Enter Password"><br><br>
+        </fieldset>
+        <h5><a href="StudentSignIn.html">Sign in</a></h5>
+        <button id="b">
+            <a href="StudentHomepage.html">Submit</a>
+        </button>
+        </form>
+    </div>
+</body>
+</html>
